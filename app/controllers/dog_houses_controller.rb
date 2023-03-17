@@ -11,5 +11,4 @@ class DogHousesController < ApplicationController
   def render_not_found_response
     render json: { error: "Dog house not found" }, status: :not_found
   end
-
 end
